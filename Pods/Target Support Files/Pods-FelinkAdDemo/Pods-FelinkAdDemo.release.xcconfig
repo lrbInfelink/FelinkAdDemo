@@ -1,0 +1,11 @@
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Ads-CN/PangleSDK" "${PODS_ROOT}/FelinkAdSDK" "${PODS_ROOT}/FelinkAdSDK/thirdparty/BaiduMobAdsSDK" "${PODS_ROOT}/TATMediaSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GDTMobSDK" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/OpenUDID" "${PODS_ROOT}/Headers/Public/YYCache" "${PODS_ROOT}/Headers/Public/YYImage" "${PODS_ROOT}/Headers/Public/YYModel" "${PODS_ROOT}/Headers/Public/YYWebImage" $(SDKROOT)/usr/include/libxml2
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/OpenUDID" "${PODS_CONFIGURATION_BUILD_DIR}/YYCache" "${PODS_CONFIGURATION_BUILD_DIR}/YYImage" "${PODS_CONFIGURATION_BUILD_DIR}/YYModel" "${PODS_CONFIGURATION_BUILD_DIR}/YYWebImage" "${PODS_ROOT}/GDTMobSDK/lib"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"GDTMobSDK" -l"Masonry" -l"OpenUDID" -l"YYCache" -l"YYImage" -l"YYModel" -l"YYWebImage" -l"bz2" -l"c++" -l"iconv" -l"resolv" -l"sqlite3" -l"xml2" -l"z" -l"z.1" -framework "AVFoundation" -framework "Accelerate" -framework "AdSupport" -framework "AssetsLibrary" -framework "AudioToolbox" -framework "BUAdSDK" -framework "BUCNAuxiliary" -framework "BUFoundation" -framework "BaiduMobAdSDK" -framework "CFNetwork" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreMotion" -framework "CoreTelephony" -framework "FelinkAdSDK" -framework "Foundation" -framework "ImageIO" -framework "JavaScriptCore" -framework "MapKit" -framework "MediaPlayer" -framework "MessageUI" -framework "MobileCoreServices" -framework "QuartzCore" -framework "SafariServices" -framework "Security" -framework "StoreKit" -framework "SystemConfiguration" -framework "TATMediaSDK" -framework "UIKit" -framework "WebKit" -weak_framework "WebKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

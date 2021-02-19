@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B8E8FDF6BDA1F8255835FA6 /* libPods-FelinkAdDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E93253971C436C1B8C5A2F85 /* libPods-FelinkAdDemo.a */; };
+		8E9ED0D3228A6B4C00678C34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9ED0D2228A6B4C00678C34 /* AppDelegate.m */; };
+		8E9ED0D6228A6B4C00678C34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9ED0D5228A6B4C00678C34 /* ViewController.m */; };
+		8E9ED0DB228A6B5900678C34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9ED0DA228A6B5900678C34 /* Assets.xcassets */; };
+		8E9ED0E1228A6B5A00678C34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9ED0E0228A6B5A00678C34 /* main.m */; };
+		8E9ED0EF228A8B7500678C34 /* AgSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9ED0E8228A8B7500678C34 /* AgSplashViewController.m */; };
+		8E9ED0F0228A8B7500678C34 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9ED0EB228A8B7500678C34 /* BaseViewController.m */; };
+		8E9ED0F1228A8B7500678C34 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9ED0EC228A8B7500678C34 /* UIWebViewController.m */; };
+		8E9ED0F2228A8B7500678C34 /* AgBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9ED0EE228A8B7500678C34 /* AgBannerViewController.m */; };
+		8E9ED0F6228A8EA600678C34 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9ED0F4228A8EA600678C34 /* LoadingView.m */; };
+		8EC88C2822D32FDD007859BB /* AgRewardVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC88C2222D32FDC007859BB /* AgRewardVideoController.m */; };
+		8EC88C2922D32FDD007859BB /* AgInterstitialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC88C2422D32FDD007859BB /* AgInterstitialController.m */; };
+		8EC88C2A22D32FDD007859BB /* AgNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC88C2622D32FDD007859BB /* AgNativeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C3C681E868DAC099BCCD4B0 /* Pods-FelinkAdDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FelinkAdDemo.debug.xcconfig"; path = "Target Support Files/Pods-FelinkAdDemo/Pods-FelinkAdDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		33FC5DA677C613ED7FFC82CD /* Pods-FelinkAdDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FelinkAdDemo.release.xcconfig"; path = "Target Support Files/Pods-FelinkAdDemo/Pods-FelinkAdDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8E50FABD25BFA79E00924352 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		8E9ED0CE228A6B4C00678C34 /* FelinkAdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FelinkAdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9ED0D1228A6B4C00678C34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E9ED0D2228A6B4C00678C34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E9ED0D4228A6B4C00678C34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E9ED0D5228A6B4C00678C34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E9ED0DA228A6B5900678C34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E9ED0DF228A6B5900678C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9ED0E0228A6B5A00678C34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E9ED0E7228A8B7500678C34 /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
+		8E9ED0E8228A8B7500678C34 /* AgSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgSplashViewController.m; sourceTree = "<group>"; };
+		8E9ED0E9228A8B7500678C34 /* AgBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgBannerViewController.h; sourceTree = "<group>"; };
+		8E9ED0EA228A8B7500678C34 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		8E9ED0EB228A8B7500678C34 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		8E9ED0EC228A8B7500678C34 /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
+		8E9ED0ED228A8B7500678C34 /* AgSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgSplashViewController.h; sourceTree = "<group>"; };
+		8E9ED0EE228A8B7500678C34 /* AgBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgBannerViewController.m; sourceTree = "<group>"; };
+		8E9ED0F4228A8EA600678C34 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		8E9ED0F5228A8EA600678C34 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		8EC88C2222D32FDC007859BB /* AgRewardVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgRewardVideoController.m; sourceTree = "<group>"; };
+		8EC88C2322D32FDC007859BB /* AgNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgNativeViewController.h; sourceTree = "<group>"; };
+		8EC88C2422D32FDD007859BB /* AgInterstitialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgInterstitialController.m; sourceTree = "<group>"; };
+		8EC88C2522D32FDD007859BB /* AgInterstitialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgInterstitialController.h; sourceTree = "<group>"; };
+		8EC88C2622D32FDD007859BB /* AgNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgNativeViewController.m; sourceTree = "<group>"; };
+		8EC88C2722D32FDD007859BB /* AgRewardVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgRewardVideoController.h; sourceTree = "<group>"; };
+		E93253971C436C1B8C5A2F85 /* libPods-FelinkAdDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FelinkAdDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E9ED0CB228A6B4C00678C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8E8FDF6BDA1F8255835FA6 /* libPods-FelinkAdDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E9ED0C5228A6B4C00678C34 = {
+			isa = PBXGroup;
+			children = (
+				8E9ED0D0228A6B4C00678C34 /* FelinkAdDemo */,
+				8E9ED0CF228A6B4C00678C34 /* Products */,
+				E6615148216AF6CDB195044F /* Pods */,
+				F0D22B2CB2859EE205931290 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E9ED0CF228A6B4C00678C34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E9ED0CE228A6B4C00678C34 /* FelinkAdDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E9ED0D0228A6B4C00678C34 /* FelinkAdDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8E9ED0F3228A8EA600678C34 /* View */,
+				8E9ED0ED228A8B7500678C34 /* AgSplashViewController.h */,
+				8E9ED0E8228A8B7500678C34 /* AgSplashViewController.m */,
+				8E9ED0E9228A8B7500678C34 /* AgBannerViewController.h */,
+				8E9ED0EE228A8B7500678C34 /* AgBannerViewController.m */,
+				8EC88C2522D32FDD007859BB /* AgInterstitialController.h */,
+				8EC88C2422D32FDD007859BB /* AgInterstitialController.m */,
+				8EC88C2322D32FDC007859BB /* AgNativeViewController.h */,
+				8EC88C2622D32FDD007859BB /* AgNativeViewController.m */,
+				8EC88C2722D32FDD007859BB /* AgRewardVideoController.h */,
+				8EC88C2222D32FDC007859BB /* AgRewardVideoController.m */,
+				8E9ED0EA228A8B7500678C34 /* BaseViewController.h */,
+				8E9ED0EB228A8B7500678C34 /* BaseViewController.m */,
+				8E9ED0E7228A8B7500678C34 /* UIWebViewController.h */,
+				8E9ED0EC228A8B7500678C34 /* UIWebViewController.m */,
+				8E9ED0D1228A6B4C00678C34 /* AppDelegate.h */,
+				8E9ED0D2228A6B4C00678C34 /* AppDelegate.m */,
+				8E9ED0D4228A6B4C00678C34 /* ViewController.h */,
+				8E9ED0D5228A6B4C00678C34 /* ViewController.m */,
+				8E9ED0DA228A6B5900678C34 /* Assets.xcassets */,
+				8E9ED0DF228A6B5900678C34 /* Info.plist */,
+				8E9ED0E0228A6B5A00678C34 /* main.m */,
+			);
+			path = FelinkAdDemo;
+			sourceTree = "<group>";
+		};
+		8E9ED0F3228A8EA600678C34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E9ED0F4228A8EA600678C34 /* LoadingView.m */,
+				8E9ED0F5228A8EA600678C34 /* LoadingView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6615148216AF6CDB195044F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C3C681E868DAC099BCCD4B0 /* Pods-FelinkAdDemo.debug.xcconfig */,
+				33FC5DA677C613ED7FFC82CD /* Pods-FelinkAdDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F0D22B2CB2859EE205931290 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E50FABD25BFA79E00924352 /* SafariServices.framework */,
+				E93253971C436C1B8C5A2F85 /* libPods-FelinkAdDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E9ED0CD228A6B4C00678C34 /* FelinkAdDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9ED0E4228A6B5A00678C34 /* Build configuration list for PBXNativeTarget "FelinkAdDemo" */;
+			buildPhases = (
+				A44298E78BBCDA38885CF72A /* [CP] Check Pods Manifest.lock */,
+				8E9ED0CA228A6B4C00678C34 /* Sources */,
+				8E9ED0CB228A6B4C00678C34 /* Frameworks */,
+				8E9ED0CC228A6B4C00678C34 /* Resources */,
+				52C4A8C08D0B9C68A253392D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FelinkAdDemo;
+			productName = FelinkAdDemo;
+			productReference = 8E9ED0CE228A6B4C00678C34 /* FelinkAdDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E9ED0C6228A6B4C00678C34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = felink;
+				TargetAttributes = {
+					8E9ED0CD228A6B4C00678C34 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8E9ED0C9228A6B4C00678C34 /* Build configuration list for PBXProject "FelinkAdDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 8E9ED0C5228A6B4C00678C34;
+			productRefGroup = 8E9ED0CF228A6B4C00678C34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E9ED0CD228A6B4C00678C34 /* FelinkAdDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E9ED0CC228A6B4C00678C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9ED0DB228A6B5900678C34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52C4A8C08D0B9C68A253392D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FelinkAdDemo/Pods-FelinkAdDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FelinkAdDemo/Pods-FelinkAdDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FelinkAdDemo/Pods-FelinkAdDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A44298E78BBCDA38885CF72A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FelinkAdDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E9ED0CA228A6B4C00678C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC88C2A22D32FDD007859BB /* AgNativeViewController.m in Sources */,
+				8E9ED0D6228A6B4C00678C34 /* ViewController.m in Sources */,
+				8E9ED0F6228A8EA600678C34 /* LoadingView.m in Sources */,
+				8E9ED0F0228A8B7500678C34 /* BaseViewController.m in Sources */,
+				8E9ED0EF228A8B7500678C34 /* AgSplashViewController.m in Sources */,
+				8EC88C2822D32FDD007859BB /* AgRewardVideoController.m in Sources */,
+				8EC88C2922D32FDD007859BB /* AgInterstitialController.m in Sources */,
+				8E9ED0F2228A8B7500678C34 /* AgBannerViewController.m in Sources */,
+				8E9ED0F1228A8B7500678C34 /* UIWebViewController.m in Sources */,
+				8E9ED0E1228A6B5A00678C34 /* main.m in Sources */,
+				8E9ED0D3228A6B4C00678C34 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E9ED0E2228A6B5A00678C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E9ED0E3228A6B5A00678C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E9ED0E5228A6B5A00678C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C3C681E868DAC099BCCD4B0 /* Pods-FelinkAdDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5.8.0;
+				DEVELOPMENT_TEAM = 5J9M8KZD4Y;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FelinkAdDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5.8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = weather.nd.com.iPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8E9ED0E6228A6B5A00678C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33FC5DA677C613ED7FFC82CD /* Pods-FelinkAdDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5.8.0;
+				DEVELOPMENT_TEAM = 5J9M8KZD4Y;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FelinkAdDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5.8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weather.nd.com.iPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E9ED0C9228A6B4C00678C34 /* Build configuration list for PBXProject "FelinkAdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9ED0E2228A6B5A00678C34 /* Debug */,
+				8E9ED0E3228A6B5A00678C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9ED0E4228A6B5A00678C34 /* Build configuration list for PBXNativeTarget "FelinkAdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9ED0E5228A6B5A00678C34 /* Debug */,
+				8E9ED0E6228A6B5A00678C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E9ED0C6228A6B4C00678C34 /* Project object */;
+}

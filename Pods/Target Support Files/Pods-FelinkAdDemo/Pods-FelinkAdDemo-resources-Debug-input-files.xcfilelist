@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-FelinkAdDemo/Pods-FelinkAdDemo-resources.sh
+${PODS_ROOT}/Ads-CN/PangleSDK/BUAdSDK.bundle
+${PODS_ROOT}/FelinkAdSDK/thirdparty/BaiduMobAdsSDK/baidumobadsdk.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/FelinkAdSDK/FelinkAdSDK.bundle
+${PODS_ROOT}/TATMediaSDK/TATMediaSDK.bundle
